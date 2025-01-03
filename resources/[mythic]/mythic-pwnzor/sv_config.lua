@@ -195,7 +195,7 @@ Config = {
 	},
     BanResources = {
         ['mythic-base'] = true,
-        ['mythic-admin'] = true,
+        ['mancave-admin'] = true,
         ['mythic-characters'] = true,
         ['mythic-damage'] = true,
         ['mythic-chat'] = true,
