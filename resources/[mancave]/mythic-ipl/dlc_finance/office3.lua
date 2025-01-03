@@ -57,7 +57,7 @@ FinanceOffice3 = {
             if (doorSide:lower() == "left") then FinanceOffice3.Safe.isLeftDoorOpen = true
             elseif (doorSide:lower() == "right") then FinanceOffice3.Safe.isRightDoorOpen = true
             else
-                Citizen.Trace("[mythic-ipl] Warning: " .. doorSide .. " is not a correct value. Valid values are:")
+                Citizen.Trace("[mancave-ipl] Warning: " .. doorSide .. " is not a correct value. Valid values are:")
                 Citizen.Trace("left right")
             end
         end,
@@ -65,7 +65,7 @@ FinanceOffice3 = {
             if (doorSide:lower() == "left") then FinanceOffice3.Safe.isLeftDoorOpen = false
             elseif (doorSide:lower() == "right") then FinanceOffice3.Safe.isRightDoorOpen = false
             else
-                Citizen.Trace("[mythic-ipl] Warning: " .. doorSide .. " is not a correct value. Valid values are:")
+                Citizen.Trace("[mancave-ipl] Warning: " .. doorSide .. " is not a correct value. Valid values are:")
                 Citizen.Trace("left right")
             end
         end,
@@ -85,7 +85,7 @@ FinanceOffice3 = {
             end
 
             if (doorHandle == 0) then
-                Citizen.Trace("[mythic-ipl] Warning: " .. doorSide .. " safe door handle is 0")
+                Citizen.Trace("[mancave-ipl] Warning: " .. doorSide .. " safe door handle is 0")
                 return
             end
 
