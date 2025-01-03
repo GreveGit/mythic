@@ -3,7 +3,7 @@ games { 'gta5' }
 lua54 'yes'
 description 'Blue Sky Limb Damage'
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 version '2.0.0'
 

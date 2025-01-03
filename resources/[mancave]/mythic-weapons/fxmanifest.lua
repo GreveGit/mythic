@@ -4,7 +4,7 @@ fx_version 'cerulean'
 description 'Stop Panda Fucking Complaining Like a Bitch'
 
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 client_scripts {
     'client/**/*.lua'

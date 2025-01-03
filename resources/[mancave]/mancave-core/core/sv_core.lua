@@ -89,7 +89,7 @@ end)
 
 RegisterNetEvent("Core:Server:ResourceStopped", function(resource)
 	local src = source
-	if resource == "mythic-pwnzor" then
+	if resource == "mancave-lib" then
 		COMPONENTS.Punishment.Ban:Source(src, -1, "Pwnzor Resource Stopped", "Pwnzor")
 	end
 end)

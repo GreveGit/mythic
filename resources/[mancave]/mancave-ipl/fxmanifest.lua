@@ -17,7 +17,7 @@ client_script "lib/observers/interiorIdObserver.lua"
 client_script "lib/observers/officeSafeDoorHandler.lua"
 client_script "client.lua"
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 
 -- GTA V

@@ -1,6 +1,6 @@
 fx_version 'cerulean'
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 game 'gta5'
 lua54 'yes'

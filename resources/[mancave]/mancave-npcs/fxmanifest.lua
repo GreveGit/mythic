@@ -7,7 +7,7 @@ fx_version "cerulean"
 game "gta5"
 server_script "@oxmysql/lib/MySQL.lua"
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 ui_page 'ui/dist/index.html'
 

@@ -4,7 +4,7 @@ lua54 'yes'
 use_experimental_fxv2_oal 'yes'
 
 client_script '@mancave-core/components/cl_error.lua'
-client_script '@mythic-pwnzor/client/check.lua'
+client_script '@mancave-lib/client/check.lua'
 
 client_scripts {
     'config.lua',

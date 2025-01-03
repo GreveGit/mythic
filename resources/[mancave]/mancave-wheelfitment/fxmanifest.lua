@@ -2,7 +2,7 @@ fx_version 'cerulean'
 games {'gta5'}
 lua54 'yes'
 client_script "@mancave-core/components/cl_error.lua"
-client_script "@mythic-pwnzor/client/check.lua"
+client_script "@mancave-lib/client/check.lua"
 
 description 'AuthenticRP Wheel Fitment For Panda Because He is a Needy Cunt'
 name 'AuthenticRP: mancave-wheelfitment'
