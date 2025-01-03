@@ -5,7 +5,7 @@ export default {
 		/// #endif
 
 		/* eslint-disable no-unreachable */
-		return fetch(`https://mythic-laptop/${event}`, {
+		return fetch(`https://mancave-computer/${event}`, {
 			method: 'post',
 			headers: {
 				'Content-type': 'application/json; charset=UTF-8',
