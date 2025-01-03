@@ -1,7 +1,7 @@
 export default {
   async send(event, data = {}) {
     /* eslint-disable no-unreachable */
-    return fetch(`https://mythic-menu/${event}`, {
+    return fetch(`https://mancave-menu/${event}`, {
       method: 'post',
       headers: {
         'Content-type': 'application/json; charset=UTF-8',
