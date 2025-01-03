@@ -36,7 +36,7 @@
 		"body": [
 			"AddEventHandler('Proxy:Shared:ExtendReady', function(component)",
 				"\tif component == 'Spawn' then",
-					"\t\texports['mythic-base']:ExtendComponent(component, SPAWN)",
+					"\t\texports['mancave-core']:ExtendComponent(component, SPAWN)",
 				"\tend",
 			"end)",
 		]
@@ -46,10 +46,10 @@
 		"body": [
 			"AddEventHandler('Proxy:Shared:Ready', function(component)",
 				"\tif component == 'base' then",
-					"\t\tLogger = exports['mythic-base']:FetchComponent('Logger')",
-					"\t\tCallbacks = exports['mythic-base']:FetchComponent('Callbacks')",
+					"\t\tLogger = exports['mancave-core']:FetchComponent('Logger')",
+					"\t\tCallbacks = exports['mancave-core']:FetchComponent('Callbacks')",
 				"\telseif component == 'Admin' then",
-					"\t\tAdmin = exports['mythic-base']:FetchComponent('Admin')",
+					"\t\tAdmin = exports['mancave-core']:FetchComponent('Admin')",
 				"\tend",
 			"end)",
 		]
@@ -58,7 +58,7 @@
 		"prefix": "RegisterServerComponent",
 		"body": [
 			"AddEventHandler('Proxy:Shared:RegisterReady', function()",
-				"\texports['mythic-base']:RegisterComponent('${1:[Component Name (Start with a Capital)]}', ${2:[Component Table]})",
+				"\texports['mancave-core']:RegisterComponent('${1:[Component Name (Start with a Capital)]}', ${2:[Component Table]})",
 			"end)"
 		]
 	},
