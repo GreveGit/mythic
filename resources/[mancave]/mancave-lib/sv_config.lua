@@ -206,7 +206,7 @@ Config = {
         ['mancave-menu'] = true,
         ['mancave-policejob'] = true,
         ['mancave-smartphone'] = true,
-        ['mythic-robbery'] = true,
+        ['mancave-robberies'] = true,
         ['mythic-targeting'] = true,
         ['screenshot-basic'] = true,
     }
